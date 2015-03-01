@@ -1,0 +1,15 @@
+&soc {
+        huawei,huawei-not-support-hs200 {
+                compatible = "huawei-not-support-hs200";
+                huawei,not-support-hs200;
+        };
+        huawei,huawei-hs200-close {
+                compatible = "huawei,huawei-hs200-close";
+                huawei,clk-rates = <400000 25000000 50000000 100000000>;
+        };
+        huawei,huawei-bus-speed-mode {
+                compatible = "huawei,huawei-bus-speed-mode";
+                huawei,bus-speed-mode = "DDR_1p8v";
+        };        
+     };
+
